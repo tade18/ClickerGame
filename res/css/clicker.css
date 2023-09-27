@@ -1,0 +1,49 @@
+
+
+
+/*Obecné*/
+*{
+    font-family: verdana;
+}
+body{
+    background-image: url("../img/background1.webp");
+    background-repeat: no-repeat;
+}
+#container{
+    width: 90%;
+    margin: auto;
+}
+#container h1{
+    text-align: center;
+    color: white;
+}
+#container2{
+    width: 90%;
+    height: 270px;
+    margin: auto;
+    border: 1px white solid;
+}
+#container2 button{
+    height: 40%;
+    width: 30%;
+    background-color: rgb(236, 135, 98);
+    border: 3px solid rgb(94, 43, 25);
+    padding: auto;
+    font-size: large;
+}
+#planet{
+    max-width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px;
+}
+#planet:hover{
+    transform: scale(1.10);
+}
+#moneycounter{
+    text-align: center;
+    color: white;
+    padding-top: 2em;
+    font-size: large;
+}
