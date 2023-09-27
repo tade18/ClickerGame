@@ -7,4 +7,4 @@ Credits:
 
 O programu:
   Jednoduchá ,,clicker game" s vesmírnou tématikou.
-  Hráč pomocí klikání získává kredity, za které kupuje další vylepěení.
+  Hráč pomocí klikání získává kredity, za které kupuje další vylepšení.
