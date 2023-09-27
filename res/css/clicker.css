@@ -1,7 +1,30 @@
+/*Index*/
+#uvod{
+    width: 90%;
+    background-color: rgb(94, 43, 25);
+    border: 5px solid rgb(236, 135, 98);
+    padding: 1em;
+    margin-top: 10%;
+    margin: auto;
+    color: rgb(217, 255, 0);
+}#staticplanet{
+    max-width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#uvod a{
+    font-size: xx-large;
+    color: crimson;
+}
 
 
-
-/*Obecné*/
+/*Game*/
 *{
     font-family: verdana;
 }
@@ -21,13 +44,13 @@ body{
     width: 90%;
     height: 270px;
     margin: auto;
-    border: 1px white solid;
 }
 #container2 button{
     height: 40%;
     width: 30%;
-    background-color: rgb(236, 135, 98);
-    border: 3px solid rgb(94, 43, 25);
+    background-color: rgb(94, 43, 25);
+    border: 3px solid rgb(236, 135, 98);
+    color: rgb(217, 255, 0);
     padding: auto;
     font-size: large;
 }
@@ -38,6 +61,7 @@ body{
     margin-right: 40%;
     padding: 10px;
 }
+
 #planet:hover{
     transform: scale(1.10);
 }
@@ -47,3 +71,5 @@ body{
     padding-top: 2em;
     font-size: large;
 }
+
+
