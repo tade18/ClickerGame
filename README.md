@@ -1,4 +1,4 @@
-# ClikerGame
+# ClickerGame
 
 Credits:
   html - Tadeáš Keller
