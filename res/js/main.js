@@ -28,7 +28,7 @@ doubleupgrade.onclick = () => {
         //odectu 60 kreditů
         money -= clickupgradePrice;
         clickupgradePrice +=60;
-        doubleupgrade.innerText= "Koupit lepší vrták(2x kreditů): "+clickupgradePrice;
+        doubleupgrade.innerText= "Koupit lepší vrták(+1 kredity/click): "+clickupgradePrice;
         moneycounter.innerText = "Vesmírné kredity: " + money;
         moneyincrease++;
     }

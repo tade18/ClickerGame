@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500&display=swap');
+
+
 *{
     user-select: none;
 }
 /*Index*/
 #uvod {
     width: 90%;
-    background-color: rgb(94, 43, 25);
-    border: 5px solid rgb(236, 135, 98);
+    background-color: rgb(26, 43, 73);
+    border-top: 16px solid rgb(31, 31, 31);
+    border-left: 16px solid rgb(31, 31, 31);
+    border-right: 16px solid rgb(63, 63, 63);
+    border-bottom: 16px solid rgb(69, 69, 69);
+    color: rgb(102, 255, 0);
     padding: 1em;
     margin-top: 10%;
     margin: auto;
-    color: rgb(217, 255, 0);
+    font-family: 'Pixelify Sans', cursive;
 }
 
 #staticplanet {
@@ -28,6 +35,7 @@ h1 {
 #uvod a {
     font-size: xx-large;
     color: crimson;
+    font-family: 'Pixelify Sans', cursive;
 }
 
 
@@ -49,6 +57,7 @@ body {
 #container h1 {
     text-align: center;
     color: white;
+    font-family: 'Pixelify Sans', cursive;
 }
 
 #container2 {
@@ -61,14 +70,18 @@ body {
     height: 40%;
     width: 33%;
     margin:auto;
-    background-color: rgb(94, 43, 25);
-    border: 3px solid rgb(236, 135, 98);
-    color: rgb(217, 255, 0);
+    background-color: rgb(26, 43, 73);
+    border-top: 16px solid rgb(31, 31, 31);
+    border-left: 16px solid rgb(31, 31, 31);
+    border-right: 16px solid rgb(63, 63, 63);
+    border-bottom: 16px solid rgb(69, 69, 69);
+    color: rgb(86, 160, 37);
     padding: auto;
     font-size: large;
+    font-family: 'Pixelify Sans', cursive;
 }
 #container2 button:hover{
-    background-color: rgb(131, 75, 54);
+    background-color: rgb(54, 107, 131);
 
 }
 #planet {
@@ -87,8 +100,7 @@ body {
     text-align: center;
     color: white;
     padding:0.5em;
-    font-size: large;
-    background-color: rgb(236, 135, 98);
-    border: 3px solid rgb(94, 43, 25);
-    color: rgb(94, 43, 25);
+    font-size: xx-large;
+    color: rgb(102, 255, 0);
+    font-family: 'Pixelify Sans', cursive;
 }
