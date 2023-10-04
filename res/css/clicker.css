@@ -1,5 +1,5 @@
 /*Index*/
-#uvod{
+#uvod {
     width: 90%;
     background-color: rgb(94, 43, 25);
     border: 5px solid rgb(236, 135, 98);
@@ -7,54 +7,65 @@
     margin-top: 10%;
     margin: auto;
     color: rgb(217, 255, 0);
-}#staticplanet{
+}
+
+#staticplanet {
     max-width: 20%;
     height: auto;
     margin-left: 40%;
     margin-right: 40%;
     padding: 10px;
 }
-h1{
+
+h1 {
     text-align: center;
     color: white;
 }
-#uvod a{
+
+#uvod a {
     font-size: xx-large;
     color: crimson;
 }
 
 
 /*Game*/
-*{
+* {
     font-family: verdana;
 }
-body{
+
+body {
     background-image: url("../img/background1.webp");
     background-repeat: no-repeat;
 }
-#container{
+
+#container {
     width: 90%;
     margin: auto;
 }
-#container h1{
+
+#container h1 {
     text-align: center;
     color: white;
 }
-#container2{
+
+#container2 {
     width: 90%;
     height: 270px;
     margin: auto;
 }
-#container2 button{
+
+#container2 button {
     height: 40%;
-    width: 30%;
+    width: 33%;
+    margin:auto;
     background-color: rgb(94, 43, 25);
     border: 3px solid rgb(236, 135, 98);
     color: rgb(217, 255, 0);
     padding: auto;
     font-size: large;
 }
-#planet{
+
+#planet {
     max-width: 20%;
     height: auto;
     margin-left: 40%;
@@ -62,14 +73,16 @@ body{
     padding: 10px;
 }
 
-#planet:hover{
+#planet:hover {
     transform: scale(1.10);
 }
-#moneycounter{
+
+#moneycounter {
     text-align: center;
     color: white;
-    padding-top: 2em;
+    padding:0.5em;
     font-size: large;
+    background-color: rgb(236, 135, 98);
+    border: 3px solid rgb(94, 43, 25);
+    color: rgb(94, 43, 25);
 }
-
-
