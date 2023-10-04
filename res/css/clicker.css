@@ -71,9 +71,6 @@ body {
     background-color: rgb(131, 75, 54);
 
 }
-bone:hover{
-    cursor: ;
-}
 #planet {
     max-width: 20%;
     height: auto;
