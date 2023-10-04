@@ -8,6 +8,7 @@ const autoupgrade = document.getElementById("autoupgrade");
 
 let money = 0;
 let moneyincrease = 1;
+let clickupgradePrice = 60;
 let autoclickincrease = 0;
 let autoclicker;
 let autoclickerPrice = 100;
@@ -23,9 +24,11 @@ planet.onclick = () => {
 }
 
 doubleupgrade.onclick = () => {
-    if (money >= 60) {
+    if (money >= clickupgradePrice) {
         //odectu 60 kreditů
-        money -= 60;
+        money -= clickupgradePrice;
+        clickupgradePrice +=60;
+        doubleupgrade.innerText= "Koupit lepší vrták(2x kreditů): "+clickupgradePrice;
         moneycounter.innerText = "Vesmírné kredity: " + money;
         moneyincrease++;
     }

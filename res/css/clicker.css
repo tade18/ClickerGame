@@ -1,3 +1,6 @@
+*{
+    user-select: none;
+}
 /*Index*/
 #uvod {
     width: 90%;
@@ -64,7 +67,13 @@ body {
     padding: auto;
     font-size: large;
 }
+#container2 button:hover{
+    background-color: rgb(131, 75, 54);
 
+}
+bone:hover{
+    cursor: ;
+}
 #planet {
     max-width: 20%;
     height: auto;
