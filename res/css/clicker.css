@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500&display=swap');
-
-
 *{
     user-select: none;
+}
+/*Body*/
+body {
+    background-image: url("../img/background1.webp");
+    background-repeat: no-repeat;
 }
 /*Index*/
 #uvod {
     width: 90%;
-    background-color: rgb(26, 43, 73);
+    background-color: rgb(7, 32, 75);
     border-top: 16px solid rgb(31, 31, 31);
     border-left: 16px solid rgb(31, 31, 31);
     border-right: 16px solid rgb(63, 63, 63);
@@ -18,72 +21,18 @@
     margin: auto;
     font-family: 'Pixelify Sans', cursive;
 }
-
-#staticplanet {
-    max-width: 20%;
-    height: auto;
-    margin-left: 40%;
-    margin-right: 40%;
-    padding: 10px;
-}
-
-h1 {
-    text-align: center;
-    color: white;
-}
-
 #uvod a {
     font-size: xx-large;
     color: crimson;
     font-family: 'Pixelify Sans', cursive;
 }
-
-
-/*Game*/
-* {
-    font-family: verdana;
-}
-
-body {
-    background-image: url("../img/background1.webp");
-    background-repeat: no-repeat;
-}
-
-#container {
-    width: 90%;
-    margin: auto;
-}
-
-#container h1 {
+h1 {
     text-align: center;
     color: white;
     font-family: 'Pixelify Sans', cursive;
 }
-
-#container2 {
-    width: 90%;
-    height: 270px;
-    margin: auto;
-}
-
-#container2 button {
-    height: 40%;
-    width: 33%;
-    margin:auto;
-    background-color: rgb(26, 43, 73);
-    border-top: 16px solid rgb(31, 31, 31);
-    border-left: 16px solid rgb(31, 31, 31);
-    border-right: 16px solid rgb(63, 63, 63);
-    border-bottom: 16px solid rgb(69, 69, 69);
-    color: rgb(86, 160, 37);
-    padding: auto;
-    font-size: large;
-    font-family: 'Pixelify Sans', cursive;
-}
-#container2 button:hover{
-    background-color: rgb(54, 107, 131);
-
-}
+/*Game*/
+/*Planeta*/
 #planet {
     max-width: 20%;
     height: auto;
@@ -91,11 +40,65 @@ body {
     margin-right: 40%;
     padding: 10px;
 }
-
 #planet:hover {
     transform: scale(1.10);
 }
+#staticplanet {
+    max-width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px;
+}
+/*Nadpis*/
+#container {
+    width: 90%;
+    margin: auto;
+}
+#container h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Pixelify Sans', cursive;
+}
+/*Hlavní menu*/
+#container2 {
+    width: 90%;
+    height: 270px;
+    margin: auto;
+}
 
+#container2 div {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    width: 35%;
+    margin: auto;
+    background-color: rgb(26, 43, 73);
+    border-top: 16px solid rgb(31, 31, 31);
+    border-left: 16px solid rgb(31, 31, 31);
+    border-right: 16px solid rgb(63, 63, 63);
+    border-bottom: 16px solid rgb(69, 69, 69);
+    color: rgb(102, 255, 0);
+    padding: auto;
+    font-size: large;
+    font-family: 'Pixelify Sans', cursive;
+    margin-top: 1%;
+}
+#container2 div:hover{
+    background-color: rgb(54, 107, 131);
+}
+#container2 div p{
+    display: block;
+    width: 70%;
+    float: left;
+}
+#container2 div img{
+    display: block;
+    width: 15%;
+    margin: 1em;
+    float: left;
+}
+/*counter*/
 #moneycounter {
     text-align: center;
     color: white;
@@ -103,4 +106,15 @@ body {
     font-size: xx-large;
     color: rgb(102, 255, 0);
     font-family: 'Pixelify Sans', cursive;
+}
+/*Responzivita*/
+@media only screen and (max-width: 1000px){
+    #planet{
+        max-width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #container2 div{
+        width: 90%;
+    }
 }

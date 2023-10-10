@@ -5,6 +5,8 @@ const planet = document.getElementById("planet");
 const moneycounter = document.getElementById("moneycounter");
 const doubleupgrade = document.getElementById("doubleupgrade");
 const autoupgrade = document.getElementById("autoupgrade");
+const doubleupgradetext = document.getElementById("doubleupgradetext");
+const autoupgradetext = document.getElementById("autoupgradetext");
 
 let money = 0;
 let moneyincrease = 1;
@@ -28,7 +30,7 @@ doubleupgrade.onclick = () => {
         //odectu 60 kreditů
         money -= clickupgradePrice;
         clickupgradePrice +=60;
-        doubleupgrade.innerText= "Koupit lepší vrták(+1 kredity/click): "+clickupgradePrice;
+        doubleupgradetext.innerText= "Koupit lepší vrták(+1 kredity/click): "+clickupgradePrice;
         moneycounter.innerText = "Vesmírné kredity: " + money;
         moneyincrease++;
     }
@@ -42,7 +44,7 @@ autoupgrade.onclick = () => {
         //zvedne cenu upgradu
         autoclickerPrice +=100;
         //zobrazí novou cenu
-        autoupgrade.innerText = "Najmout pracovníky(autoclick): "+ autoclickerPrice;
+        autoupgradetext.innerText = "Najmout pracovníky(autoclick): "+ autoclickerPrice;
         //zvedne se hodnota
         autoclickincrease++;
         //zastavení intervalu
