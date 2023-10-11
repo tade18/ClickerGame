@@ -66,10 +66,10 @@ h1 {
     width: 90%;
     height: 270px;
     margin: auto;
-}
-#container2 div {
     display: flex;
     flex-direction: row;
+}
+#container2 div {
     height: 40%;
     width: 35%;
     margin: auto;
